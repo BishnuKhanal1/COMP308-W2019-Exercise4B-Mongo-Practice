@@ -1,1 +1,9 @@
 /* custom css goes here */
+.nav-item.navbar-link {
+  font-weight: bold;
+}
+
+h5 {
+  color: white;
+  margin-left: 500px;
+}
