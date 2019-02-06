@@ -1,5 +1,5 @@
 {
-  "name": "comp308-w2019-lesson4b",
+  "name": "comp308-w2019-lesson4b-exercise4-mongo-practice",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -18,11 +18,11 @@
     "font-awesome": "^4.7.0",
     "http-errors": "~1.6.2",
     "jquery": "^3.3.1",
-    "mongoose": "^5.4.10",
+    "mongoose": "^5.4.9",
     "morgan": "~1.9.0",
     "popper.js": "^1.14.6"
   },
-  "description": "Mongo and Mongoose Demo",
+  "description": "Mongo and Mongoose with favorite_things added",
   "main": "server.js",
   "author": "Bishnu Khanal",
   "license": "ISC",
