@@ -10,6 +10,9 @@
     "npm": "^6.0.0"
   },
   "dependencies": {
+    "@types/bootstrap": "^4.2.1",
+    "@types/jquery": "^3.3.29",
+    "@types/popper.js": "^1.11.0",
     "bootstrap": "^4.2.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
