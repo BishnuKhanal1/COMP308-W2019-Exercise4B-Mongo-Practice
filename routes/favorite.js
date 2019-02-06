@@ -11,15 +11,15 @@ let contact = require("../models/favorite"); //reference to contact.js file in m
 //now we need to use the router
 /*Get Contact List Page - read operation */
 router.get("/", (req, res, next) => {
-  contact.find((err, contactList) => {
+  favorite.find((err, favoriteList) => {
     if (err) {
       return console.error(err);
     } else {
-      //console.log(contactList);
+      console.log(favoriteList);
 
-      res.render("contacts/index", {
-        title: "Contact List",
-        contactList: contactList
+      res.render("favorites/index", {
+        title: "favorite List",
+        favoriteList: favoriteList
       });
     }
   });
